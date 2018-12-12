@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<p align="center" ><h1>登录成功</h1></p>
+<p align="center" color="red"><a href="addStudo" ><h3>添加学生</h3></a></p>
+  <!-- <form action="login" method="post">  -->
+    <div align="center">
+        输入想查询的姓名：<input id="stuname" type="text">
+        <input type="button" value="查询" onclick="btn();">
+    </div>
+    <div align="center">
+        <table>
+            <thead>
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+            </tr>
+            </thead>
+            <tbody id="tab">
+               
+            </tbody>
+        </table>
+        <script src="js/load_data.js"></script> <!--引入动态加载文件-->
+    </div>
+</form>
+
+</body>
+</html>
